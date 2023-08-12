@@ -10,12 +10,13 @@
 int main(void)
 {
 	char c[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char n;
+	int n;
 
-	for (n = 0 ; n <= 52 ; n++)
+	for (n = 0; n < 52; n++)
 	{
 		putchar(c[n]);
 	}
 	putchar('\n');
+
 	return (0);
 }
