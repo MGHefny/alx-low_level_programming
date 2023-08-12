@@ -10,10 +10,7 @@
 int main(void)
 {
 	char c;
-	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	for (c = 'a' ; c <= 'z' ; c++)
 	{
 		putchar('c');
