@@ -9,18 +9,13 @@
 
 int main(void)
 {
-	char c;
-	char C;
+	char c[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char n;
 
-	for (c = 'a' ; c <= 'z' ; c++)
+	for (n = 0 ; n <= 52 ; n++)
 	{
 		putchar(c);
 	}
 	putchar(c);
-	for (C = 'A' ; C <= 'Z' ; C++)
-	{
-		putchar(c);
-	}
-	putchar(C);
 	return (0);
 }
