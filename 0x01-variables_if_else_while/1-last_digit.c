@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry Point 
+ * main - Entry Point
  * Description: the last digit greater 5 or less 6 or equal 0.
  * Return: Always 0 (Success)
  */
