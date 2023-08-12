@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry Point
- * Description:  prints the alphabet in lowercase.
+ * Description:  prints all  alphabet.
  * Return: Always 0 (Success)
  */
 
