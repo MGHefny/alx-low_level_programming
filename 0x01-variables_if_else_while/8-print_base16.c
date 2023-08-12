@@ -19,7 +19,7 @@ int main(void)
 	}
 	for (x = 0; x < 6; x++)
 	{
-		putchar(alp[x]);
+		putchar(c[x]);
 	}
 	putchar('\n');
 	return (0);
