@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - positive , negative , zero */
-
-/* Return: Always 0 */
+/**
+  * main - Entry point
+  *
+  * Description: negative or positive or zero.
+  *
+  *Return: Always 0 (Success)
+  */
 int main(void)
 {
 	int n;
