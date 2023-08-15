@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Entry Point
  * Description:   prints _putchar
