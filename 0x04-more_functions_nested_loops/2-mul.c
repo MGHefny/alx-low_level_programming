@@ -1,19 +1,15 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check code
- *
- * Return: Always 0.
+ * mul - multiply 2 integer
+ * @a: int 1
+ * @b: int 2
+ * Return: addition
  */
 
-int main(void)
+int mul(int a, int b)
 {
-	char c;
+	int z;
 
-	c = 48;
-	printf("%c: %d\n", c, _isdigit(c));
-	c = 97;
-	printf("%c: %d\n", c, _isdigit(c));
-	return (0);
+	z = a * b;
+	return (z);
 }
