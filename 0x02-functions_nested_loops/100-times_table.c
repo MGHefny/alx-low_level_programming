@@ -13,7 +13,7 @@ void print_times_table(int n)
 		{
 			for (y = 0; y <= n; y++)
 			{
-				k = y * x;
+				z = y * x;
 				if (y == 0)
 				{
 					_putchar(z + '0');
