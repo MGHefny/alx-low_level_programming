@@ -14,7 +14,7 @@ int main(void)
 	long int y;
 
 	x = 612852475143;
-	max = -1;
+	m = -1;
 
 	while (x % 2 == 0)
 	{
