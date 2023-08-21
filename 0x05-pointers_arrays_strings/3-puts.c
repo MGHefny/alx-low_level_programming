@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-  * _put - print string
+  * _puts - print string
   * @str: input string
   */
 
-void _put(char *str)
+void _puts(char *str)
 {
 	while (*str != '\0')
 	{
