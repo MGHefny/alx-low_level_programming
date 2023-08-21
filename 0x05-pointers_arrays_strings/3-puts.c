@@ -5,7 +5,7 @@
   * @str: input string
   */
 
-void _puts(char *str)
+void _put(char *str)
 {
 	while (*str != '\0')
 	{
