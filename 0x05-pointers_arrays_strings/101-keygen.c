@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	int pass[100];
+	int pass[10];
 	int x, y;
 
 	int sum = 0;
 
-	for (x = 0; x < 100; x++)
+	for (x = 0; x < 10; x++)
 	{
 		pass[x] = rand() % 78;
 		sum += (pass[x] + '0');
