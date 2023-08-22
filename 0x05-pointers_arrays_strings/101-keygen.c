@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-
+#include<time.h>
 /**
   * main - program run
   *
@@ -9,12 +9,14 @@
 
 int main(void)
 {
-	int pass[10];
+	int pass[100];
 	int x, y;
 
 	int sum = 0;
 
-	for (x = 0; x < 10; x++)
+	srand(time(NULL));
+
+	for (x = 0; x < 100; x++)
 	{
 		pass[x] = rand() % 78;
 		sum += (pass[x] + '0');
