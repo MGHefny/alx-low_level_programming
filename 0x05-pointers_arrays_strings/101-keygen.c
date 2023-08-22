@@ -12,9 +12,7 @@ int main(void)
 	int pass[100];
 	int x, y;
 
-	int sum = 0;	
-
-	srand(time(NULL));
+	int sum = 0;
 
 	for (x = 0; x < 100; x++)
 	{
