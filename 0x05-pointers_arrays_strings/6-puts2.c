@@ -17,7 +17,7 @@ void puts2(char *str)
 		c++;
 	}
 	x = n--;
-	for (y = 0; y <= x; y++)
+	for (y = 0; y < x; y++)
 	{
 		if (y % 2 == 0)
 		{
