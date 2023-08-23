@@ -2,17 +2,16 @@
 /**
   * _strcat - main function
   * @dest: input
-  * @scr: input
+  * @src: input
   *Return: dest
   */
 
-char*_strcat(char *dest, char *scr)
+char *_strcat(char *dest, char *src)
 {
-
-	int x, y;
+	int x;
+	int y;
 
 	x = 0;
-
 	while (dest[x] != '\0')
 	{
 		x++;
