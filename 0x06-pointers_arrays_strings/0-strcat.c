@@ -6,7 +6,7 @@
   *Return: dest
   */
 
-char *_strcat(char *dest, char *scr)
+char*_strcat(char *dest, char *scr)
 {
 
 	int x, y;
