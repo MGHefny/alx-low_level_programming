@@ -1,16 +1,10 @@
 #include <stdlib.h>
 #include "main.h"
-
 /**
- * count_word - function need it 
- * @s: string value
+ * count_word - functiom need it
+ * @s: string eval
  *
- * Return: number of words
- * **strtow - string into words
- * @str: string > split
- *
- * Return: pointer arr of (Success)
- * or (Error)
+ * Return: number  words
  */
 int count_word(char *s)
 {
@@ -32,9 +26,15 @@ int count_word(char *s)
 
 	return (y);
 }
+/**
+ * **strtow - string to words
+ * @str: str split
+ *
+ * Return: pointer arr of(Success)
+ * or(Error)
+ */
 char **strtow(char *str)
-{
-	char **mat, *tmp;
+{char **mat, *tmp;
 	int x, word, st, end;
 	int y = 0;
 	int len = 0;
