@@ -3,8 +3,8 @@
 /**
  * *_memset - memory constant byte
  * @s: memory arr
- * @b: char 
- * @n: times of copy 
+ * @b: char
+ * @n: times of copy
  * Return: pointer  memory arr
  */
 char *_memset(char *s, char b, unsigned int n)
