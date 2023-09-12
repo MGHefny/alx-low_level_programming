@@ -1,25 +1,25 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * struct dogs - the dogs info
- * @n: the value
- * @o: the value
- * @a: the value
+ * struct dog - the dog info
+ * @name: the value
+ * @owner: the value
+ * @age: the value
  */
-struct dogs
+struct dog
 {
-	char *n;
-	float a;
-	char *o;
+	char *name;
+	float age;
+	char *owner;
 };
 /**
- * dogs_t - data struct dogs
+ * dog_t - data struct dog
  */
-typedef struct dogs dogs_t;
-void init_dogs(struct dogs *d, char *n, float a, char *o);
-void print_dogs(struct dogs *d);
-dogs_t *new_dogs(char *n, float a, char *o);
-void free_dogs(dogs_t *d);
-char *_strcpy(char *dest, char *src);
+typedef struct dog dogs_t;
+void init_dogs(struct dog *x, float age, char *name,  char *owner);
+void print_dogs(struct dog *x);
+dogs_t *new_dogs(float age, char *name, char *owner);
+void free_dogs(dogs_t *x);
+char *_strcpy(char *des, char *sr);
 int _strlen(char *s);
 #endif
