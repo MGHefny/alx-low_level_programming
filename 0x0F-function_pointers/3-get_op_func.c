@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include "3-calc.h"
+#include <stdlib.h>
 /**
  * get_op_func - the correct fun
  * @s: the passed of arg
