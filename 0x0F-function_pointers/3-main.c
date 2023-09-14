@@ -3,11 +3,11 @@
 #include <stdio.h>
 #include "3-calc.h"
 /**
- * main - Prints result
- * @argv: arr pointers the arg
- * @argc: numb of arg
- * Return: Always 0
- */
+  6  * main - Prints result
+  7  * @argv: arr pointers the arg
+  8  * @argc: numb of arg
+  9  * Return: Always 0
+ 10  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int num1, num2;
@@ -28,11 +28,13 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	if (((*op == '%' && num2 == 0) || *op == '/' && num2 == 0))
+
+	if ((*op == '/' && num2 == 0) || (*op == '%' && num2 == 0))
 	{
 		printf("Error\n");
 		exit(100);
 	}
+
 	printf("%d\n", get_op_func(op)(num1, num2));
 	return (0);
 }
