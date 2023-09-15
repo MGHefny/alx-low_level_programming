@@ -7,14 +7,12 @@
  */
 void print_all(const char * const format, ...)
 {
-		int x = 0;
+	int x = 0;
 	char *st;
 	char *sp = "";
-
 	va_list li;
 
 	va_start(li, format);
-
 	if (format)
 	{
 		while (format[x])
