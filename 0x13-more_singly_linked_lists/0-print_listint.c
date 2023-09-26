@@ -8,9 +8,9 @@
 size_t print_listint(const listint_t *h)
 {
 	size_t n = 0;
-	int x;
+//	int x;
 
-	for (x = 0; x < h ; i++)
+	while (h)
 	{
 		printf("%d\n", h->n);
 		n++;
