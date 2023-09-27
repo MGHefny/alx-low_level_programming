@@ -8,9 +8,10 @@ size_t print_listint(const listint_t *h)
 {
 	size_t n = 0;
 
-	for (n = 0; n < h ; n++)
+	while (h)
 	{
 		h = h->next;
+		n++;
 	}
 
 	return (n);
