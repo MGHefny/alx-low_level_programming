@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_listint - print elem of linked list
+ * listint_len - print elem of linked list
  * @h: type list to print
  * Return: num nod
  */
