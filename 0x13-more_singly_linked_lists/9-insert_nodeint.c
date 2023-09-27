@@ -1,7 +1,6 @@
 #include "lists.h"
-
 /**
- * insert_nodeint_at_index - insert x ele postive
+ * insert_nodeint_at_index - insert x ele postiev 
  * @head: first node
  * @n: data new node
  * @idx: index node add
@@ -9,9 +8,9 @@
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	listint_t *x;
-	listint_t *t = *head;
 	unsigned int y;
+	listint_t *t = *head;
+	listint_t *x;
 
 	x = malloc(sizeof(listint_t));
 	if (!x || !head)
@@ -27,7 +26,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		return (x);
 	}
 
-	for (y = 0; t && y < idx; y++)
+	for (y = 0; y && t < idx; y++)
 	{
 		if (y == idx - 1)
 		{
