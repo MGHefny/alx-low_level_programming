@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * get_bit - return decimal number
  * @n: numb
@@ -13,9 +13,7 @@ int get_bit(unsigned long int n, unsigned int index)
 	{
 		return (-1);
 	}
-
 	x = (n >> index) & 1;
-
 	return (x);
 }
 
