@@ -67,7 +67,7 @@ int main(int rgc, char *rgv[])
 			free(bff);
 			exit(98);
 		}
-		w = write(n_l, bff, r_f);
+		w_f = write(n_l, bff, r_f);
 		if (n_l == -1 || w_f == -1)
 		{
 			dprintf(STDERR_FILENO,
