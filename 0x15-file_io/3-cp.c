@@ -13,7 +13,7 @@ char *create_bff(char *file)
 	bff = malloc(sizeof(char) * 1024);
 	if (bff == NULL)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write n_l %s\n", file);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file);
 		exit(99);
 	}
 
@@ -32,7 +32,7 @@ void close_f(int fi)
 
 	if (clos == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fi %d\n", fi);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fi);
 		exit(100);
 	}
 }
@@ -61,7 +61,7 @@ int main(int rgc, char *rgv[])
 		if (o_l == -1 || r_f == -1)
 		{
 			dprintf(STDERR_FILENO,
-				"Error: Can't read o_l file %s\n", rgv[1]);
+				"Error: Can't read from file %s\n", rgv[1]);
 			free(bff);
 			exit(98);
 		}
@@ -69,7 +69,7 @@ int main(int rgc, char *rgv[])
 		if (n_l == -1 || w_f == -1)
 		{
 			dprintf(STDERR_FILENO,
-				"Error: Can't write n_l %s\n", rgv[2]);
+				"Error: Can't write to %s\n", rgv[2]);
 			free(bff);
 			exit(99);
 		}
