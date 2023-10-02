@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+char *create_bff(char *f);
+void close_f(int fi);
 /**
  * create_bff - 1024 bytes in bff
  * @file: The name file have storing char
