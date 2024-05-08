@@ -5,7 +5,7 @@
 #include <math.h>
 
 /**
- * listint_s - singly linked list
+ * struct listint_s - singly linked list
  * @x: Int
  * @ind: Index node
  * @nxt: Pointer next node
@@ -20,7 +20,7 @@ typedef struct listint_s
 } listint_t;
 
 /**
- * skiplist_s - singly linked list
+ * struct skiplist_s - singly linked list
  *
  * @x: Int
  * @ind: Index node
